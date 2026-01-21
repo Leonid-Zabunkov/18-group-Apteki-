@@ -22,11 +22,11 @@ Project/
 │   │   ├── yandex_reviews_clean.csv      # Исходный файл с отзывами
 │   │   ├── 1_reviews_full_cleaned.csv    # Очищенные данные с леммами и сезонами
 │   │   └── datalens_ready.csv            # Денормализованный датасет для Yandex DataLens
-│   ├── dictionaries/
-│   │   ├── 5_topics_config.json          # Конфигурация тематических категорий
-│   │   ├── 2_stats_general.csv           # Частотный словарь (общий)
-│   │   ├── 3_stats_positive.csv          # Частотный словарь (позитив)
-│   │   └── 4_stats_negative.csv          # Частотный словарь (негатив)
+│   └── dictionaries/
+│       ├── 5_topics_config.json          # Конфигурация тематических категорий
+│       ├── 2_stats_general.csv           # Частотный словарь (общий)
+│       ├── 3_stats_positive.csv          # Частотный словарь (позитив)
+│       └── 4_stats_negative.csv          # Частотный словарь (негатив)
 ├── notebooks/
 │   └── analysis_pipeline.ipynb       # Jupyter Notebook с кодом обработки
 ├── img/
@@ -39,7 +39,8 @@ Project/
 │   ├── chart_6.png
 │   ├── chart_7.png
 │   └── chart_8.png
-└── README.md                         # Отчет о проекте
+├── itog.pptx                         # Отчет о проекте
+└── README.md
 ```
 
 ## Требования
